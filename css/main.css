@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap');
+body{font-family: 'Montserrat', sans-serif;}
+
+textarea{resize: none;}
+.fs-140{ font-size: 140px;}
+.yellowcolor{ color: #ffa810;}
+.yellowbg{ background: #ebad30;}
+.h-46{ height: 46px;}
+.fs-60{ font-size: 3.2rem;}
+.fs-20{  font-size: 1.2rem;}
+ul{ list-style: none;}
+
+.homebanner{ background: url(../img/Home_banner.jpg) no-repeat center center; height: 714px;}
+
+.quick_contact{ width: 440px; padding: 30px 45px; border-radius: 7px;}
+
+.quick_contactinner .form-control{ height: 46px; border: #d3c4c2 solid 1px; border-radius: 3px; font-size:13px ; color: #000;} 
+.quick_contactinner textarea{ height: 86px !important; border: #d3c4c2 solid 1px; border-radius: 3px;}
+.quick_contact .fs-2{ font-size: 36px !important;}
+.quick_contact .fs-5{ font-size: 18px !important; line-height: 26px;}
+
+.highly h3{ font-size:36px; font-weight: 300; line-height: 42px;}
+
+.yearstext p{ font-size: 15px;}
+
+
+
+.services_bg{ background:#2c2e83 url(../img/services_bg.jpg) no-repeat center center;}
+
+.include_text ul{ list-style: none; }
+
+
+.rightmark li{ position: relative; padding: 10px 0px; font-size: 14px; font-weight: 300;}
+.rightmark li::before{ content: ""; background: url(../img/rightmark.png); width: 19px; height: 19px; display: inline-block; vertical-align: middle; margin-right: 10px; top: 15px; left: -30px; position: absolute;}
+
+
+
+
+@media (max-width: 881px) {
+    .highly h3{ font-size: 33px;}
+    .fs-60{font-size: 2rem;}
+    br{ display: none;}
+    .headerright h1{ font-size: 16px !important;}
+    .headerright p{font-size: 26px !important;}
+
+  }
+
+
+  
+
+
+
+  
+@media only screen and (max-width: 576px) {
+    .logo { text-align: center; width: 100%;}
+    .headerright{ text-align: center;}
+    .include_text ul li{ font-size: 14px !important;}
+    .headerright h1{ font-size: 16px !important;  padding-top: 15px; margin-top: 18px; border-top: #ccc solid 1px;}
+    .headerright p{font-size: 26px !important;}
+    .quick_contact{ width: 100%; padding: 30px 20px;}
+    .quick_contact .fs-2{font-size: 32px !important;}
+    .quick_contact .fs-5{font-size: 14px !important;}
+    .homebanner{ background-size: cover;}
+    footer .fs-6{ font-size: 14px !important; }
+  }
